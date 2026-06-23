@@ -1,0 +1,83 @@
+/**
+ * AI Personal Assistant (AIPA) — brand palette
+ * Primary: indigo (#6366f1) · Accent: violet (decorative hover/focus rings)
+ */
+
+:root {
+  --ifm-color-primary: #6366f1;
+  --ifm-color-primary-dark: #4f51ef;
+  --ifm-color-primary-darker: #4346ee;
+  --ifm-color-primary-darkest: #2f31d9;
+  --ifm-color-primary-light: #797bf3;
+  --ifm-color-primary-lighter: #8587f4;
+  --ifm-color-primary-lightest: #a3a4f7;
+
+  --ifm-color-secondary: #a855f7;
+  --ifm-color-success: #10b981;
+  --ifm-color-info: #6366f1;
+  --ifm-color-warning: #f59e0b;
+  --ifm-color-danger: #ef4444;
+
+  --ifm-code-font-size: 92%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --ifm-heading-font-weight: 700;
+
+  --docusaurus-highlighted-code-line-bg: rgba(99, 102, 241, 0.10);
+
+  /* Soft accent surfaces used by callouts + hero strips */
+  --aipa-surface-accent: rgba(168, 85, 247, 0.06);
+  --aipa-surface-brand: rgba(99, 102, 241, 0.07);
+}
+
+/* Dark mode — keep brand recognisable, lift contrast */
+[data-theme='dark'] {
+  --ifm-color-primary: #818cf8;
+  --ifm-color-primary-dark: #6470f6;
+  --ifm-color-primary-darker: #5563f5;
+  --ifm-color-primary-darkest: #3140f2;
+  --ifm-color-primary-light: #9ea8fa;
+  --ifm-color-primary-lighter: #adb5fb;
+  --ifm-color-primary-lightest: #cdd2fc;
+
+  --ifm-background-color: #0e1018;
+  --ifm-background-surface-color: #171a26;
+
+  --docusaurus-highlighted-code-line-bg: rgba(129, 140, 248, 0.18);
+  --aipa-surface-brand: rgba(129, 140, 248, 0.10);
+}
+
+/* ---------------------------------------------------------------------------
+ * Subtle entrance animation on body headings (CSS-only, respects reduced motion)
+ * ------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+  .markdown > h1,
+  .markdown > h2 {
+    animation: aipa-fade-up 420ms ease-out both;
+  }
+  @keyframes aipa-fade-up {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Code block polish */
+.theme-code-block {
+  border-radius: 10px;
+}
+
+/* Author callout used on the about / long pages (no extra component needed) */
+.aipa-author-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 12px;
+  background: var(--aipa-surface-brand);
+  margin: 1.5rem 0;
+}
+
+.aipa-author-card a {
+  font-weight: 600;
+}

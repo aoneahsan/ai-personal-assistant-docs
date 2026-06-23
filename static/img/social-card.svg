@@ -1,0 +1,27 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI Personal Assistant — 40+ productivity and AI tools in one app">
+  <defs>
+    <linearGradient id="aipaCardBg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e1b4b"/>
+      <stop offset="0.55" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="aipaCardMark" x1="120" y1="210" x2="280" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c7d2fe"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#aipaCardBg)"/>
+  <!-- decorative sparkles -->
+  <path d="M980 90c.9 4.6 3.7 7.4 8.3 8.3-4.6.9-7.4 3.7-8.3 8.3-.9-4.6-3.7-7.4-8.3-8.3 4.6-.9 7.4-3.7 8.3-8.3Z" fill="#a5b4fc" fill-opacity="0.6"/>
+  <path d="M1080 520c1.2 6 4.8 9.6 10.8 10.8-6 1.2-9.6 4.8-10.8 10.8-1.2-6-4.8-9.6-10.8-10.8 6-1.2 9.6-4.8 10.8-10.8Z" fill="#a5b4fc" fill-opacity="0.5"/>
+  <!-- mark -->
+  <rect x="100" y="200" width="160" height="160" rx="36" fill="#ffffff" fill-opacity="0.08"/>
+  <path d="M180 222c3.4 17.6 14.2 28.4 31.8 31.8-17.6 3.4-28.4 14.2-31.8 31.8-3.4-17.6-14.2-28.4-31.8-31.8 17.6-3.4 28.4-14.2 31.8-31.8Z" fill="url(#aipaCardMark)"/>
+  <path d="M214 296c1.7 8.8 7.1 14.2 15.9 15.9-8.8 1.7-14.2 7.1-15.9 15.9-1.7-8.8-7.1-14.2-15.9-15.9 8.8-1.7 14.2-7.1 15.9-15.9Z" fill="#c7d2fe"/>
+  <!-- text -->
+  <text x="320" y="270" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="76" font-weight="800" fill="#ffffff">AI Personal Assistant</text>
+  <text x="322" y="338" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="500" fill="#c7d2fe">40+ productivity &amp; AI tools in one app</text>
+  <text x="322" y="398" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="500" fill="#a5b4fc">Web · Android · iOS  ·  Bring your own Gemini key</text>
+  <text x="100" y="556" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="600" fill="#e0e7ff">aipa.aoneahsan.com</text>
+  <text x="1100" y="556" text-anchor="end" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="500" fill="#a5b4fc">by Ahsan Mahmood · Zaions</text>
+</svg>

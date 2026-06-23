@@ -1,0 +1,40 @@
+# AI Personal Assistant (AIPA) — Documentation Index
+
+> AI Personal Assistant (AIPA) is a private, all-in-one productivity app that bundles 40+ tools — tasks, notes, planners, habits, AI chat and writing, finance and health trackers, flashcards, file utilities, and more — into a single workspace for web, Android, and iOS. AI features run on a user-supplied Google Gemini API key (bring-your-own-key), so there is no developer-funded paid LLM. Live app: https://aipa.aoneahsan.com. Author: Ahsan Mahmood / Zaions (https://aoneahsan.com).
+
+## About
+
+AIPA replaces a drawer full of single-purpose apps with one launcher. It is built with React, TypeScript, and Capacitor (web + Android + iOS) and stores data under the signed-in user's own Firebase free-tier account; device-only settings use on-device storage. AI tools (AI Brain, chat, writing assistant, translation, summarization, image/SVG generation) call Google Gemini using an API key the user provides. This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
+
+## Getting Started
+
+- [Introduction](https://ai-personal-assistant-docs.aoneahsan.com/intro): What AIPA is, who it's for, the platforms it runs on, and the 40-tools-in-one value.
+- [Installation](https://ai-personal-assistant-docs.aoneahsan.com/getting-started/installation): Use the web app or install from Google Play.
+- [Quick Start](https://ai-personal-assistant-docs.aoneahsan.com/getting-started/quick-start): Sign in with Google and open your first tool.
+- [Account & Sync](https://ai-personal-assistant-docs.aoneahsan.com/getting-started/account-and-sync): How accounts, cross-device sync, and offline behavior work.
+
+## AI Setup
+
+- [Bring Your Own Key (Gemini)](https://ai-personal-assistant-docs.aoneahsan.com/ai/bring-your-own-key): Where to get a free Google Gemini API key, where to paste it in-app, and which features need it vs. which run client-side for free.
+
+## Features (by category)
+
+- [Productivity](https://ai-personal-assistant-docs.aoneahsan.com/features/productivity): Tasks, notes, rich-text notes, diary, goals, projects, daily/weekly planners, time tracker, reminders, smart calendar, bookmarks, mind map, Pomodoro timer, habit tracker.
+- [AI & Content](https://ai-personal-assistant-docs.aoneahsan.com/features/ai-and-content): AI Brain, AI chat, voice notes, translator, speech (TTS/STT), writing assistant, document scanner (OCR), AI image generator, markdown editor.
+- [Finance & Health](https://ai-personal-assistant-docs.aoneahsan.com/features/finance-and-health): Expense tracker and budget planner, savings tracker, and a health hub (meditation, mood, sleep, water, exercise).
+- [Learning & Collaboration](https://ai-personal-assistant-docs.aoneahsan.com/features/learning-and-collaboration): Flashcards, quiz creator, vocabulary builder, wiki, code snippets, polls, whiteboard, speed reading.
+- [Utilities](https://ai-personal-assistant-docs.aoneahsan.com/features/utilities): PDF annotator, cloud file manager, file tools, QR code studio, currency converter, event countdown, time-zone converter, gratitude journal.
+
+## How-to Guides
+
+- [Track your habits](https://ai-personal-assistant-docs.aoneahsan.com/guides/track-your-habits): Build a habit and keep a streak.
+- [Plan your day](https://ai-personal-assistant-docs.aoneahsan.com/guides/plan-your-day): Use the daily planner and review.
+- [Use the Pomodoro timer](https://ai-personal-assistant-docs.aoneahsan.com/guides/use-the-pomodoro-timer): Focus in work/break cycles.
+- [Manage your budget](https://ai-personal-assistant-docs.aoneahsan.com/guides/manage-your-budget): Track expenses and plan a budget.
+
+## Privacy & About
+
+- [Privacy & Data](https://ai-personal-assistant-docs.aoneahsan.com/privacy-and-data): What is stored, where, local-only data, file uploads, and account deletion.
+- [About the Author](https://ai-personal-assistant-docs.aoneahsan.com/about-the-author): Ahsan Mahmood's developer profile, links, and contact.
+- Live app: https://aipa.aoneahsan.com
+- Google Play: https://play.google.com/store/apps/details?id=com.aoneahsan.aipa

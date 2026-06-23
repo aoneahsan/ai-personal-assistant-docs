@@ -1,0 +1,65 @@
+{
+  "$schema": "ai-personal-assistant-docs-content-tracker",
+  "description": "Resumable content tracker for the AIPA documentation site. Lists baseline pages created and what remains for future SEO/content enrichment. Docusaurus ignores non-.md files in docs/, so this JSON is not published as a page.",
+  "project": "ai-personal-assistant-docs",
+  "liveApp": "https://aipa.aoneahsan.com",
+  "docsSite": "https://ai-personal-assistant-docs.aoneahsan.com",
+  "sourceAppRepo": "/home/ahsan/Documents/01-code/projects/ai-personal-assistant (PRIVATE)",
+  "createdAt": "2026-06-23",
+  "lastUpdated": "2026-06-23",
+  "stack": "Docusaurus 3 (classic preset + Mermaid), React 19, TypeScript 6, yarn",
+  "ports": { "start": 5962, "serve": 5963 },
+  "hosting": ["Firebase Hosting (site: ai-personal-assistant-docs)", "GitHub Pages (gh-pages via Actions)"],
+  "baselinePagesCreated": [
+    "docs/intro.md",
+    "docs/getting-started/installation.md",
+    "docs/getting-started/quick-start.md",
+    "docs/getting-started/account-and-sync.md",
+    "docs/ai/bring-your-own-key.md",
+    "docs/features/productivity.md",
+    "docs/features/ai-and-content.md",
+    "docs/features/finance-and-health.md",
+    "docs/features/learning-and-collaboration.md",
+    "docs/features/utilities.md",
+    "docs/guides/track-your-habits.md",
+    "docs/guides/plan-your-day.md",
+    "docs/guides/use-the-pomodoro-timer.md",
+    "docs/guides/manage-your-budget.md",
+    "docs/privacy-and-data.md",
+    "docs/about-the-author.md"
+  ],
+  "totalPages": 16,
+  "categoriesDocumented": [
+    "Productivity (one category page covering 15 tools)",
+    "AI & Content (one category page covering 9 tools)",
+    "Finance & Health (one category page covering 3 grouped tools)",
+    "Learning & Collaboration (one category page covering 8 tools)",
+    "Utilities (one category page covering 8 tools)"
+  ],
+  "seoFloorPerPage": {
+    "distinctTitle": true,
+    "distinctMetaDescription": true,
+    "definitionFirstIntro": true,
+    "useCases": true,
+    "faq": "3-5 Q&A per page",
+    "lastUpdated": true
+  },
+  "honestFramingNotes": [
+    "AI features documented as BYO Google Gemini key — no developer-funded LLM.",
+    "Free client-side mechanisms (Web Speech API, client-side OCR) called out vs. Gemini-backed features.",
+    "Whiteboard real-time collaboration noted as requiring network/signaling; degrades to local.",
+    "Finance = not financial advice; Health = not medical advice / not a medical device.",
+    "File uploads documented as FilesHub; data under user's Firebase free-tier account."
+  ],
+  "remaining": [
+    "Optional: one dedicated page per individual tool (40+ pages) for deeper SEO long-tail coverage.",
+    "Optional: more how-to guides (e.g. flashcards study, document scanning, QR sharing, mind mapping).",
+    "Optional: a Concepts section (architecture, data model, offline-first behavior).",
+    "Optional: screenshots/GIFs (user-captured) once available."
+  ],
+  "nextBatch": {
+    "id": "batch-02",
+    "suggestion": "Add per-tool pages for the highest-search-demand Productivity + AI tools (tasks, notes, habit tracker, pomodoro, AI chat, writing assistant), 800-1000 words each, then wire into sidebars.ts under each category.",
+    "verifyBeforeUse": "Cross-check tool list against /home/ahsan/Documents/01-code/projects/ai-personal-assistant/src/config/featureCatalog.ts before writing."
+  }
+}

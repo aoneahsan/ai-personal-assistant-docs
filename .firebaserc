@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "ai-personal-assistant-docs"
+  },
+  "targets": {
+    "ai-personal-assistant-docs": {
+      "hosting": {
+        "ai-personal-assistant-docs": [
+          "ai-personal-assistant-docs"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
