@@ -8,7 +8,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // Live app: https://aipa.aoneahsan.com
 // ---------------------------------------------------------------------------
 
-const SITE_URL = 'https://ai-personal-assistant-docs.aoneahsan.com';
+const SITE_URL = 'https://aipa-docs.aoneahsan.com';
 const APP_URL = 'https://aipa.aoneahsan.com';
 const PLAY_URL =
   'https://play.google.com/store/apps/details?id=com.aoneahsan.aipa';
@@ -185,6 +185,17 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          // `docs/` is BOTH the published content dir and the home of the
+          // fixed-path internal file docs/MANUAL-TASKS.md. Keep the path (the
+          // global rule fixes it) but never publish it — this repo is public.
+          // NOTE: `exclude` REPLACES the plugin defaults, so they are restated.
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+            'MANUAL-TASKS.md',
+          ],
           routeBasePath: '/',
           editUrl: `${REPO_URL}/edit/main/`,
           showLastUpdateTime: true,
