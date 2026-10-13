@@ -85,7 +85,7 @@ const config: Config = {
         name: 'AI Personal Assistant Documentation',
         url: SITE_URL,
         description:
-          'Documentation for AI Personal Assistant (AIPA) — 40+ productivity, AI, finance, health, learning, and utility tools in one private app for web, Android, and iOS. Author: Ahsan Mahmood (Zaions).',
+          'Documentation for AI Personal Assistant (AIPA) — 40+ productivity, AI, finance, health, learning, and utility tools in one private app for the web and Android. Author: Ahsan Mahmood (Zaions).',
         inLanguage: 'en',
         publisher: {
           '@type': 'Organization',
@@ -116,7 +116,7 @@ const config: Config = {
         name: 'AI Personal Assistant',
         alternateName: 'AIPA',
         applicationCategory: 'ProductivityApplication',
-        operatingSystem: 'Web, Android, iOS',
+        operatingSystem: 'Web, Android',
         offers: {
           '@type': 'Offer',
           price: '0',
@@ -135,7 +135,7 @@ const config: Config = {
           url: 'https://aoneahsan.com',
         },
         description:
-          'A private, AI-powered productivity workspace bundling 40+ tools — tasks, notes, planners, habits, AI chat and writing, finance and health trackers, flashcards, file utilities, and more — into one app for web, Android, and iOS. AI features run on a user-supplied Google Gemini key (bring-your-own-key).',
+          'A private, AI-powered productivity workspace bundling 40+ tools — tasks, notes, planners, habits, AI chat and writing, finance and health trackers, flashcards, file utilities, and more — into one app for the web and Android. AI features run on a user-supplied Google Gemini key (bring-your-own-key).',
       }),
     },
     {
@@ -221,7 +221,7 @@ const config: Config = {
       {
         name: 'description',
         content:
-          'Documentation for AI Personal Assistant (AIPA) — 40+ productivity, AI, finance, health, learning, and utility tools in one private app for web, Android, and iOS. AI runs on your own free Google Gemini key. Built by Ahsan Mahmood (Zaions).',
+          'Documentation for AI Personal Assistant (AIPA) — 40+ productivity, AI, finance, health, learning, and utility tools in one private app for the web and Android. AI runs on your own free Google Gemini key. Built by Ahsan Mahmood (Zaions).',
       },
       {
         name: 'keywords',

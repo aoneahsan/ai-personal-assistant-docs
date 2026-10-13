@@ -1,10 +1,10 @@
 # AI Personal Assistant (AIPA) — Documentation Index
 
-> AI Personal Assistant (AIPA) is a private, all-in-one productivity app that bundles 40+ tools — tasks, notes, planners, habits, AI chat and writing, finance and health trackers, flashcards, file utilities, and more — into a single workspace for web, Android, and iOS. AI features run on a user-supplied Google Gemini API key (bring-your-own-key), so there is no developer-funded paid LLM. Live app: https://aipa.aoneahsan.com. Author: Ahsan Mahmood / Zaions (https://aoneahsan.com).
+> AI Personal Assistant (AIPA) is a private, all-in-one productivity app that bundles 40+ tools — tasks, notes, planners, habits, AI chat and writing, finance and health trackers, flashcards, file utilities, and more — into a single workspace for the web and Android. AI features run on a user-supplied Google Gemini API key (bring-your-own-key), so there is no developer-funded paid LLM. Live app: https://aipa.aoneahsan.com. Author: Ahsan Mahmood / Zaions (https://aoneahsan.com).
 
 ## About
 
-AIPA replaces a drawer full of single-purpose apps with one launcher. It is built with React, TypeScript, and Capacitor (web + Android + iOS) and stores data under the signed-in user's own Firebase free-tier account; device-only settings use on-device storage. AI tools (AI Brain, chat, writing assistant, translation, summarization, image/SVG generation) call Google Gemini using an API key the user provides. This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
+AIPA replaces a drawer full of single-purpose apps with one launcher. It is built with React, TypeScript, and Capacitor (web + Android) and stores data under the signed-in user's own Firebase free-tier account; device-only settings use on-device storage. AI tools (AI Brain, chat, writing assistant, translation, summarization, image/SVG generation) call Google Gemini using an API key the user provides. This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
 
 ## Getting Started
 
