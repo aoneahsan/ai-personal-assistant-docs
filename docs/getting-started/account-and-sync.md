@@ -8,7 +8,7 @@ keywords:
   - google sign in
   - offline support
 last_update:
-  date: 2026-06-23
+  date: 2026-10-13
   author: Ahsan Mahmood
 ---
 
@@ -21,7 +21,7 @@ last_update:
 AIPA uses Google sign-in:
 
 - **On the web**, sign-in uses the Firebase Authentication popup flow.
-- **On native apps (Android/iOS)**, sign-in uses the native Google sign-in flow and resolves to the same Firebase user, so the rest of the app behaves identically on every platform.
+- **On Android**, sign-in uses the native Google sign-in flow and resolves to the same Firebase user.
 
 You sign in once per device. After that, AIPA keeps you signed in until you sign out.
 
@@ -53,7 +53,7 @@ Treat offline as "keep working with what you have" rather than "every feature wo
 
 ## Using AIPA on multiple devices
 
-1. Install or open AIPA on each device (web, Android, iOS).
+1. Install or open AIPA on each device (web or Android app).
 2. Sign in with the **same** Google account on each.
 3. Your cloud-backed data appears everywhere; per-device settings (like theme) are set per device.
 

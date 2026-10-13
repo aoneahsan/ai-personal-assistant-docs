@@ -7,7 +7,7 @@ keywords:
   - getting started
   - ai personal assistant tutorial
 last_update:
-  date: 2026-06-23
+  date: 2026-10-13
   author: Ahsan Mahmood
 ---
 
@@ -24,9 +24,9 @@ Open **[aipa.aoneahsan.com](https://aipa.aoneahsan.com)** in your browser, or la
 Click **Sign in** and choose your Google account. Signing in:
 
 - Creates your private account (data stored under your own Firebase free-tier space).
-- Enables sync, so the same tasks, notes, and trackers appear on web, Android, and iOS.
+- Enables sync, so the same tasks, notes, and trackers appear on the web and Android app.
 
-You can browse the app before signing in, but anything you want to keep and sync needs an account. On native (Android/iOS), Google sign-in uses the native Google flow; on the web it uses the Firebase Auth popup.
+You can browse the app before signing in, but anything you want to keep and sync needs an account. On Android, Google sign-in uses the native Google flow; on the web it uses the Firebase Auth popup.
 
 ## 3. Open the feature launcher
 

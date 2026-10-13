@@ -9,7 +9,7 @@ keywords:
   - zaions
   - aipa author
 last_update:
-  date: 2026-06-23
+  date: 2026-10-13
   author: Ahsan Mahmood
 ---
 
@@ -31,7 +31,7 @@ last_update:
 
 ## About AIPA
 
-AIPA bundles 40+ productivity, AI, finance, health, learning, and utility tools into one workspace for web, Android, and iOS. It's built with React, TypeScript, and Capacitor, stores data under the user's own Firebase free-tier account, and runs AI features on a user-supplied Google Gemini key.
+AIPA bundles 40+ productivity, AI, finance, health, learning, and utility tools into one workspace for the web and Android. It's built with React, TypeScript, and Capacitor, stores data under the user's own Firebase free-tier account, and runs AI features on a user-supplied Google Gemini key.
 
 - **Open the app:** [aipa.aoneahsan.com](https://aipa.aoneahsan.com)
 - **Get it on Google Play:** [AI Personal Assistant](https://play.google.com/store/apps/details?id=com.aoneahsan.aipa)

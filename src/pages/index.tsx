@@ -38,7 +38,7 @@ const FEATURES: Feature[] = [
   },
   {
     title: 'Private by design',
-    body: 'Your data lives under your own account on the Firebase free tier; device-local settings use on-device storage. Sign in with Google and sync across web, Android, and iOS.',
+    body: 'Your data lives under your own account on the Firebase free tier; device-local settings use on-device storage. Sign in with Google and sync across the web and Android app.',
   },
 ];
 
@@ -76,7 +76,7 @@ function HomepageFeatures(): ReactNode {
         <p className={styles.sectionSubtitle}>
           AI Personal Assistant (AIPA) bundles productivity, AI, finance,
           health, learning, and utility tools into a single private workspace
-          for web, Android, and iOS.
+          for the web and Android.
         </p>
         <div className="row">
           {FEATURES.map((f) => (
@@ -118,7 +118,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title} — 40+ productivity & AI tools in one app`}
-      description="Documentation for AI Personal Assistant (AIPA): tasks, notes, planners, habits, AI chat and writing, finance and health trackers, flashcards, file utilities, and more — for web, Android, and iOS. AI runs on your own free Google Gemini key."
+      description="Documentation for AI Personal Assistant (AIPA): tasks, notes, planners, habits, AI chat and writing, finance and health trackers, flashcards, file utilities, and more — for the web and Android. AI runs on your own free Google Gemini key."
     >
       <HomepageHeader />
       <main>

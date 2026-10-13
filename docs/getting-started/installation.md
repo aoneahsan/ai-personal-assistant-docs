@@ -7,7 +7,7 @@ keywords:
   - aipa download
   - productivity app android
 last_update:
-  date: 2026-06-23
+  date: 2026-10-13
   author: Ahsan Mahmood
 ---
 
@@ -33,9 +33,9 @@ On Chrome, Edge, and other Chromium browsers you can also install the web app as
 
 The Android app is built with Capacitor and uses native push notifications. Notification permission is requested in-app when you first opt into reminders.
 
-## Option 3 — iOS
+## Option 3 — Use the web app on iOS
 
-AIPA is built for iOS with Capacitor. When the App Store build is published, install it the same way as any App Store app and sign in with the same Google account. Until then, use the web app on iOS Safari.
+Open the web app in Safari on iOS. This documentation does not list a native App Store release.
 
 ## Option 4 — Browser extension (companion)
 

@@ -3,13 +3,13 @@
   "description": "Resumable content tracker for the AIPA documentation site. Lists baseline pages created and what remains for future SEO/content enrichment. Docusaurus ignores non-.md files in docs/, so this JSON is not published as a page.",
   "project": "ai-personal-assistant-docs",
   "liveApp": "https://aipa.aoneahsan.com",
-  "docsSite": "https://ai-personal-assistant-docs.aoneahsan.com",
-  "sourceAppRepo": "/home/ahsan/Documents/01-code/projects/ai-personal-assistant (PRIVATE)",
+  "docsSite": "https://aipa-docs.aoneahsan.com",
+  "sourceAppRepo": "/home/ahsan/Documents/01-code/projects/ai-personal-assistant-root/ai-personal-assistant-ai-project (PRIVATE)",
   "createdAt": "2026-06-23",
-  "lastUpdated": "2026-06-23",
+  "lastUpdated": "2026-10-13",
   "stack": "Docusaurus 3 (classic preset + Mermaid), React 19, TypeScript 6, yarn",
   "ports": { "start": 5962, "serve": 5963 },
-  "hosting": ["Firebase Hosting (site: ai-personal-assistant-docs)", "GitHub Pages (gh-pages via Actions)"],
+  "hosting": ["GitHub Pages (deploy-pages workflow on main)"],
   "baselinePagesCreated": [
     "docs/intro.md",
     "docs/getting-started/installation.md",
@@ -60,6 +60,6 @@
   "nextBatch": {
     "id": "batch-02",
     "suggestion": "Add per-tool pages for the highest-search-demand Productivity + AI tools (tasks, notes, habit tracker, pomodoro, AI chat, writing assistant), 800-1000 words each, then wire into sidebars.ts under each category.",
-    "verifyBeforeUse": "Cross-check tool list against /home/ahsan/Documents/01-code/projects/ai-personal-assistant/src/config/featureCatalog.ts before writing."
+    "verifyBeforeUse": "Cross-check each tool against routes and modules under sourceAppRepo/src; the old featureCatalog.ts path is absent."
   }
 }

@@ -2,7 +2,7 @@
 id: intro
 slug: /intro
 title: What is AI Personal Assistant (AIPA)?
-description: AI Personal Assistant (AIPA) is a private all-in-one app that bundles 40+ productivity, AI, finance, health, learning, and utility tools into one workspace for web, Android, and iOS.
+description: AI Personal Assistant (AIPA) is a private all-in-one app that bundles 40+ productivity, AI, finance, health, learning, and utility tools into one workspace for the web and Android.
 keywords:
   - ai personal assistant
   - aipa
@@ -10,13 +10,13 @@ keywords:
   - productivity tools
   - ai app
 last_update:
-  date: 2026-06-23
+  date: 2026-10-13
   author: Ahsan Mahmood
 ---
 
 # What is AI Personal Assistant (AIPA)?
 
-**AI Personal Assistant (AIPA) is a single app that bundles more than 40 personal-productivity tools — tasks, notes, planners, habits, AI chat and writing, finance and health trackers, study tools, and file utilities — into one private workspace that runs on the web, Android, and iOS.** Instead of juggling a dozen single-purpose apps, you open one launcher and pick the tool you need.
+**AI Personal Assistant (AIPA) is a single app that bundles more than 40 personal-productivity tools — tasks, notes, planners, habits, AI chat and writing, finance and health trackers, study tools, and file utilities — into one private workspace on the web and Android.** Instead of juggling a dozen single-purpose apps, you open one launcher and pick the tool you need.
 
 This documentation explains what each tool does (and does not do), how to sign in and sync your data, and how AIPA's AI features work using your own free Google Gemini key.
 
@@ -40,7 +40,7 @@ AIPA is one codebase shipped to multiple surfaces:
 | --- | --- |
 | **Web** | Open [aipa.aoneahsan.com](https://aipa.aoneahsan.com) in any modern browser — nothing to install. |
 | **Android** | Install from [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.aipa). |
-| **iOS** | Built with Capacitor for iOS; availability follows the App Store listing. |
+| **iOS browser** | Open the web app in Safari. A native App Store release is not recorded here. |
 | **Browser extension** | A companion extension (Chrome MV3 / Firefox MV2) provides quick access; it authenticates with the Chrome Identity API. |
 
 ## The "40+ tools in one app" idea
@@ -72,7 +72,7 @@ Two honest points that shape everything else in these docs:
 The app itself is free to use on its free tier. AI features use your own Google Gemini API key, which has its own free quota from Google — so you only ever pay Google if you exceed their free allowance. AIPA does not charge a subscription for the core tools documented here.
 
 ### Do I need an account to use it?
-You can open the app and explore, but signing in with Google lets your data sync across the web, Android, and iOS. See [Account & Sync](/getting-started/account-and-sync).
+You can open the app and explore, but signing in with Google lets your data sync across the web and Android app. See [Account & Sync](/getting-started/account-and-sync).
 
 ### Does AIPA work offline?
 Many tools work with locally stored data, and the app caches what it can. Cross-device sync and AI features need a connection. Real-time collaboration tools (like the whiteboard) need network access and degrade to local use when offline.
